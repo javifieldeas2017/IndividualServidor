@@ -19,6 +19,7 @@ namespace individual_net
 
             // Rutas de Web API
             config.MapHttpAttributeRoutes();
+            config.EnableCors();
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",

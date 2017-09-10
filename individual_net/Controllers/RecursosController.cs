@@ -10,9 +10,11 @@ using System.Web.Http;
 using System.Web.Http.Description;
 using individual_net;
 using individual_net.Models;
+using System.Web.Http.Cors;
 
 namespace individual_net.Controllers
 {
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class RecursosController : ApiController
     {
         private ApplicationDbContext db = new ApplicationDbContext();
