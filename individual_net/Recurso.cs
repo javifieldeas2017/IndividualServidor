@@ -8,6 +8,7 @@ namespace individual_net
     public class Recurso
     {
         public long Id { get; set; }
+        public string Tipo { get; set; }
         public long ISBN { get; set; }
         public long ISAN { get; set; }
         public long ISMN { get; set; }
