@@ -12,7 +12,6 @@ namespace individual_net
         public long ISBN { get; set; }
         public long ISAN { get; set; }
         public long ISMN { get; set; }
-        public int idCopia { get; set; }
         public string Categoria { get; set; }
         public string Titulo { get; set; }
         public string Autor { get; set; }
