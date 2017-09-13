@@ -15,5 +15,6 @@ namespace individual_net
         public long ISMN { get; set; }
         public string Recepcion { get; set; }
         public string Devolucion { get; set; }
+        public bool Devuelto { get; set; }
     }
 }
